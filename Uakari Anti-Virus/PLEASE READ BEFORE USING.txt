@@ -1,0 +1,13 @@
+This anti-virus IS NOT MENT to be your main anti-virus software, this software is ment to run on top of your existing
+anti-virus.
+
+This software's main purpose is to scan your computer for virus prank files and viruses
+
+DO NOT edit source code if you dont know what you are doing.
+
+DO NOT redistribute this software without Dishonest Uakari's permisson.
+
+These files were scanned with McAfee® Total Protection for your computer's safety. 
+
+Copyright 2018 Dishonest Uakari
+ 

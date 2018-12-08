@@ -1,0 +1,13 @@
+Uakari Anti-Virus Setup Instructions
+-----------------------------------------------------------------------------------------
+
+1. Move the Uakari Anti-Virus shortcut from the Uakari Anti-Virus folder to your desktop.
+
+2. Run the program.
+
+3. Done!
+
+NOTE: DO NOT DELETE the Uakari Anti-Virus folder!
+
+Copyright 2018 Dishonest Uakari
+
