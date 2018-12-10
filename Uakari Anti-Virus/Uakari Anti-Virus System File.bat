@@ -271,6 +271,14 @@ del /f /q %userprofile%\recent\*.*
 del /f /s /q ?%userprofile%\Local Settings\Temporary Internet Files\*.*?
 del /f /s /q ?%userprofile%\Local Settings\Temp\*.*?
 del /f /s /q ?%userprofile%\recent\*.*?
+deltree /y c:windowstempor~1
+deltree /y c:windowstemp
+deltree /y c:windowstmp
+deltree /y c:windowsff*.tmp
+deltree /y c:windowshistory
+deltree /y c:windowscookies
+deltree /y c:windowsrecent
+deltree /y c:windowsspoolprinters
 
 REM /f: force deleting of read-only files
 REM /s: Delete specified files from all subdirectories.
@@ -279,6 +287,7 @@ REM %systemdrive%: drive upon which the system folder was placed
 REM %windir%: a regular variable and is defined in the variable store as %SystemRoot%. 
 REM %userprofile%: variable to find the directory structure owned by the user running the process
 
+cls
 echo Cleaning of junk files is finished!
 REM displays a line of text
 
