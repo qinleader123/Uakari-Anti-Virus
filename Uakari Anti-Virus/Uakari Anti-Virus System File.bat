@@ -7,7 +7,7 @@ title Uakari Anti-Virus
 mode 44,10
 cls
 echo Uakari Anti-Virus
-echo ____________________________________________
+echo ____________________________________
 echo 1) PC Clean-Up
 echo 2) Scan For Viruses
 echo 3) List Currently Running Programs
@@ -111,7 +111,7 @@ IF EXIST plugin.exe goto found5
 
 cls
 echo Scan Is Complete!
-echo -----------------
+echo ____________________________________
 echo 0 Viruses Were Found
 echo.
 pause
