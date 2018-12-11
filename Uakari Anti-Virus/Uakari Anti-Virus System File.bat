@@ -6,7 +6,7 @@ title Uakari Anti-Virus
 :menu
 mode 44,10
 cls
-echo Uakari Anti-Virus                       Version 0.4
+echo Uakari Anti-Virus                       Version 0.6
 echo ___________________________________________________
 echo 1) PC Clean-Up
 echo 2) Scan For Viruses
