@@ -12,6 +12,7 @@ echo 1) PC Clean-Up
 echo 2) Scan For Viruses
 echo 3) List Currently Running Programs
 echo 4) Exit Uakari Anti-Virus
+echo 5) Update Uakari Anti-Virus
 echo.
 
 SET INPUT=
@@ -21,6 +22,12 @@ IF /I '%INPUT%'=='1' GOTO cleaner
 IF /I '%INPUT%'=='2' GOTO scan
 IF /I '%INPUT%'=='3' GOTO proglist
 IF /I '%INPUT%'=='4' GOTO exit
+IF /I '%INPUT%'=='5' GOTO update
+goto menu
+
+:update
+cls
+start https://github.com/qinleader123/Uakari-Anti-Virus
 goto menu
 
 :proglist
