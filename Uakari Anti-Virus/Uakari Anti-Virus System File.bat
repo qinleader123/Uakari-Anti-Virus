@@ -6,8 +6,8 @@ title Uakari Anti-Virus
 :menu
 mode 44,10
 cls
-echo Uakari Anti-Virus                 Version 0.6
-echo _____________________________________________
+echo Uakari Anti-Virus      Version 0.7
+echo __________________________________
 echo 1) PC Clean-Up
 echo 2) Scan For Viruses
 echo 3) List Currently Running Programs
@@ -19,11 +19,53 @@ SET INPUT=
 SET /P INPUT=Please Select A Number And Then Press Enter:
 
 IF /I '%INPUT%'=='1' GOTO cleaner
-IF /I '%INPUT%'=='2' GOTO scan
+IF /I '%INPUT%'=='2' GOTO scanmenu
 IF /I '%INPUT%'=='3' GOTO proglist
 IF /I '%INPUT%'=='4' GOTO exit
 IF /I '%INPUT%'=='5' GOTO update
 goto menu
+
+:scanmenu
+cls
+echo Scan Menu
+echo __________________________________
+echo 1) Batch File Scan
+echo 2) Normal Scan
+
+SET INPUT=
+SET /P INPUT=Please Select A Number And Then Press Enter:
+
+IF /I '%INPUT%'=='1' GOTO scan2
+IF /I '%INPUT%'=='2' GOTO scan
+goto scanmenu
+
+:scan2
+cls
+echo =====================================
+echo [ Uakari Anti-Virus Batch File Scan ]
+echo =====================================
+echo If There's No Message, You Are Safe.
+set /p a=Enter A Batch File To Scan:
+for /f %%x in (
+'findstr /i /m "virus r.i.p byebye HaHaHa Hacked Hack" %a%.bat'
+) do (
+if /i %%x equ %a%.bat (
+for /f %%z in (
+'findstr /i /b /m "tskill del copy shutdown ipconfig ren reg" %a%.bat'
+) do (
+if /i %%z equ %a%.bat (
+cls
+echo Virus Detected
+del %a%.bat
+echo %a%.bat Was Deleted By Uakari Anti-Virus...
+pause
+goto menu
+pause >nul
+)
+)
+)
+)
+pause >nul
 
 :update
 cls
