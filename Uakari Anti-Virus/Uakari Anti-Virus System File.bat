@@ -31,12 +31,14 @@ echo Scan Menu
 echo __________________________________
 echo 1) Batch File Scan
 echo 2) Normal Scan
+echo 3) Go Back
 
 SET INPUT=
 SET /P INPUT=Please Select A Number And Then Press Enter:
 
 IF /I '%INPUT%'=='1' GOTO scan2
 IF /I '%INPUT%'=='2' GOTO scan
+IF /I '%INPUT%'=='3' GOTO menu
 goto scanmenu
 
 :scan2
