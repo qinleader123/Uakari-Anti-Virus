@@ -6,7 +6,7 @@ title Uakari Anti-Virus
 :menu
 mode 44,10
 cls
-echo Uakari Anti-Virus      Version 1.1
+echo Uakari Anti-Virus      Version 1.2
 echo __________________________________
 echo 1) PC Clean-Up
 echo 2) Scan For Viruses
@@ -175,7 +175,7 @@ cls
 echo This File (virus.bat) Might Contain A Virus
 echo Do You Want To Delete This File?
 echo ____________________________________
-echo 1) YES
+echo 1) YES (Recommended)
 echo 2) NO
 
 SET INPUT=
@@ -201,7 +201,7 @@ cls
 echo This File (plugincontainer.upd) Might Contain A Virus
 echo Do You Want To Delete This File?
 echo ____________________________________
-echo 1) YES
+echo 1) YES (Recommended)
 echo 2) NO
 
 SET INPUT=
@@ -227,7 +227,7 @@ cls
 echo This File (virus.exe) Might Contain A Virus
 echo Do You Want To Delete This File?
 echo ____________________________________
-echo 1) YES
+echo 1) YES (Recommended)
 echo 2) NO
 
 SET INPUT=
@@ -253,7 +253,7 @@ cls
 echo This File (setup.exe) Might Contain A Virus
 echo Do You Want To Delete This File?
 echo ____________________________________
-echo 1) YES
+echo 1) YES (Recommended)
 echo 2) NO
 
 SET INPUT=
@@ -279,7 +279,7 @@ cls
 echo This File (plugin.exe) Might Contain A Virus
 echo Do You Want To Delete This File?
 echo ____________________________________
-echo 1) YES
+echo 1) YES (Recommended)
 echo 2) NO
 
 SET INPUT=
